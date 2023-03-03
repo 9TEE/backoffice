@@ -29,7 +29,7 @@ $result = mysqli_query($link, $sql) or die(mysqli_error($link)); ?>
     </div>
     <div class="m-2">
         
-        <table class="table table-dark table-hover">
+        <table class="table table-dark table-hover table-bordered">
             <thead class="text-center">
                 <tr>
                     <th class="" style="width: 10rem;">#</th>
