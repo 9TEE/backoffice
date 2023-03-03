@@ -1,0 +1,134 @@
+div {
+  margin-left: 20%;
+  padding: 1px 16px;
+}
+
+.col {
+  position: relative;
+  color: rgb(255, 255, 255);
+  background-color: #da70d6;
+  width: 76%;
+  left: 19px;
+  padding: 1%;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th,
+td {
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+th {
+  background-color: #da70d6;
+  color: white;
+}
+
+img {
+  width: 150px;
+  height: 150px;
+}
+
+form {
+  width: 96.1%;
+  padding: 1%;
+  margin: 0;
+  background-color: #dda0dd;
+  display: block;
+  margin: auto;
+}
+
+.form_group {
+  width: 100%;
+  padding: 10px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 5px solid #ffff00;
+  outline: none;
+}
+
+.a {
+  background-color: #4caf50;
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  border-radius: 15px;
+}
+
+.b {
+  background-color: #f44336;
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  border-radius: 15px;
+}
+
+.button {
+  display: inline-block;
+  border-radius: 4px;
+  background-color: #f4511e;
+  border: none;
+  color: #ffffff;
+  text-align: center;
+  font-size: 18px;
+  padding: 20px;
+  width: 200px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
+
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button span:after {
+  content: "\00bb";
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button:hover span {
+  padding-right: 25px;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+p {
+  position: absolute;
+  color: rgb(255, 255, 255);
+  background-color: #da70d6;
+  width: 76%;
+  padding: 1%;
+}

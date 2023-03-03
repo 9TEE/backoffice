@@ -1,0 +1,76 @@
+div {
+    margin-left: 20%;
+    padding: 1px 16px;
+}
+
+.col {
+    position: relative;
+    color: rgb(255, 255, 255);
+    background-color: #DA70D6;
+    width: 76%;
+    left: 19px;
+    padding: 1%;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th,
+td {
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2
+}
+
+th {
+    background-color: #DA70D6;
+    color: white;
+}
+
+.a {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    border-radius: 15px;
+}
+
+.b {
+    background-color: #f44336;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    border-radius: 15px;
+}
+
+.d {
+    text-align: center;
+}
+
+p {
+    position: absolute;
+    color: rgb(255, 255, 255);
+    background-color: #DA70D6;
+    width: 76%;
+    padding: 1%;
+}
+
